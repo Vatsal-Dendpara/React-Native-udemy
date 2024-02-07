@@ -10,6 +10,7 @@ const ExpenseItem = ({ id, description, amount, date }) => {
       expenseId: id,
     });
   };
+
   return (
     <Pressable
       onPress={itemPressHandler}
