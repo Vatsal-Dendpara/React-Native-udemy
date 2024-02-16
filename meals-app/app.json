@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "meals-app",
+    "name": "Food Adda",
     "slug": "meals-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "backgroundColor":"#2e2e2e",
+    "backgroundColor": "#2e2e2e",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,16 +16,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vatsaldendpara.mealsapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d6688631-e13f-42b7-9924-00a24075b646"
+      }
     }
   }
 }
